@@ -15,17 +15,6 @@
   --font-size-lg: 1.4rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: var(--background-color);
-  font-family: var(--seconary-font-family);
-  line-height: 1.5;
-  overflow-x: hidden;
-}
-
 .visually-hidden {
   height: 1px;
   left: 0;
@@ -38,18 +27,4 @@ body {
 [class^="f"] {
   font-size: 30px;
   color: inherit;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 3.5rem 0 2rem 0;
-  font-family: var(--primary-font-family);
-}
-
-p {
-  margin: 1.5rem 0;
 }
