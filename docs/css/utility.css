@@ -1,0 +1,111 @@
+/* grid */
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.g-2 {
+  gap: 2rem;
+}
+
+.g-v-center {
+  align-items: center;
+}
+
+/* spacing */
+
+.space-2 {
+  margin-top: 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.plr-2 {
+  padding: 0 2rem;
+}
+
+.ptb-2 {
+  padding: 2rem 0;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* typography */
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white-text {
+  color: var(--background-color);
+}
+
+/* elements */
+.btn {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  border: 3px solid var(--secondary-color);
+  transition: all 0.3s linear;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  color: #eeeeee;
+}
+
+.border-10 {
+  border-radius: 10px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* layout */
+
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+.max-1200-center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.max-1000-center {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* style */
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+@media screen and (min-width: 600px) {
+  .max-1000-center {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-2-col {
+    grid-template-columns: 50% 50%;
+  }
+
+  .max-1000-center {
+    padding: 0;
+  }
+}

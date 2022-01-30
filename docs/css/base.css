@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #008cd6;
+  --primary-dark-color: #0069a1;
+  --primary-light-color: #99d1ef;
+  --secondary-color: #1a1a66;
+  --background-color: #eeeeee;
+  --text-primary: #111111;
+  --text-black-light: rgba(0, 0, 0, 0.65);
+  --text-black-hover: rgba(0, 0, 0, 0.85);
+  --text-hover-background: rgba(121, 82, 179, 0.1);
+  --logo-font-family: "Mochiy Pop P One", sans-serif;
+  --primary-font-family: "Montserrat", sans-serif;
+  --seconary-font-family: "Roboto Mono", monospace;
+  --font-size-sm: 1.2rem;
+  --font-size-lg: 1.4rem;
+}
+
+.visually-hidden {
+  height: 1px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: -500px;
+  width: 1px;
+}
+
+[class^="f"] {
+  font-size: 30px;
+  color: inherit;
+}
