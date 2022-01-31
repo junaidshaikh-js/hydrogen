@@ -5,32 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
-
-    <!-- fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
+    <link rel="shortcut icon" type="image/jpg" href="./docs/favicon.png" />
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@400;800&family=Roboto+Mono&display=swap"
       rel="stylesheet"
     />
 
+    <!-- component library Styles -->
+    <link rel="stylesheet" href="./style.css" />
+
     <!-- stylesheet -->
-    <link rel="stylesheet" href="./docs/css/index.css" />
+    <link rel="stylesheet" href="./docs//css/index.css" />
     <title>Hydrogen | Home</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="header-wrapper">
-        <header class="header max-1200-center">
+      <div class="header-wrapper py-sm">
+        <header class="header max-1200-center p-1">
           <div class="logo-wrapper">
             <a href="./index.html" class="logo"> HYDROGEN </a>
 
@@ -42,16 +38,23 @@
 
           <nav class="navbar">
             <ul class="nav-links">
-              <li><a href="./index.html" class="border-10">Home</a></li>
-              <li>
-                <a href="./docs/get-started.html" class="border-10">Docs</a>
+              <li class="m-sm active">
+                <a href="./index.html" class="border-10 p-1">Home</a>
               </li>
-              <li>
+              <li class="m-sm">
+                <a href="./docs/get-started.html" class="border-10 p-1">Docs</a>
+              </li>
+              <li class="m-sm">
                 <a
                   href="https://github.com/junaidshaikh-js/hydrogen"
-                  class="border-10"
-                  >Edit <i class="fab fa-github-square"></i
+                  class="border-10 p-1"
+                  >Contribute <i class="fab fa-github-square"></i
                 ></a>
+              </li>
+              <li class="m-sm">
+                <button class="theme-switch-btn p-1">
+                  <i class="fas fa-moon" title="switch theme"></i>
+                </button>
               </li>
             </ul>
 
@@ -63,18 +66,22 @@
         </header>
       </div>
 
-      <div class="main-wrapper p-2 max-1000-center">
-        <main class="grid-2-col min-vh-80 g-2 g-v-center">
+      <div class="main-wrapper p-2 max-1000-center min-vh-85">
+        <main class="grid grid-50-50 min-vh-85 g-2 grid-y-center">
           <div class="hero-text">
-            <h1 class="bold">Build Website 10x Faster with Hydrogen</h1>
+            <h1>Build Website 10x Faster with Hydrogen</h1>
             <p>
               Hydrogen provides pre made components that you can directly use in
               your website without any hassle. We did all the hardwork so you
               don't have to.
             </p>
-            <button class="btn btn-primary border-10 bold">
-              <a href="./docs/get-started.html">Get Started</a>
-            </button>
+
+            <a
+              href="./docs/get-started.html"
+              class="btn btn-primary border-10 txt-semibold txt-white"
+            >
+              Get Started
+            </a>
           </div>
           <div class="mt-2">
             <img src="./assets/hero-img.svg" alt="" class="img-responsive" />
@@ -82,8 +89,8 @@
         </main>
       </div>
 
-      <div class="footer-wrapper bg-secondary white-text">
-        <footer class="text-center ptb-2">
+      <div class="footer-wrapper bg-secondary txt-white">
+        <footer class="txt-center py-2">
           <p>Made with ❤️ by Junaid</p>
           <div class="social-links">
             <a href="https://twitter.com/junaidshaikh_js"
@@ -102,5 +109,6 @@
 
     <!-- script -->
     <script src="./docs/js/navbar.js"></script>
+    <script src="./docs/js/switch-theme.js"></script>
   </body>
 </html>

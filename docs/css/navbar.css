@@ -1,21 +1,24 @@
 /* header */
 
 .logo {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-family: var(--logo-font-family);
-  font-size: 1.5rem;
+  font-size: var(--size-11);
   font-weight: bold;
   user-select: none;
 }
 
 .header-wrapper {
-  background-color: var(--primary-light-color);
-  box-shadow: 2px 2px 5px var(--primary-dark-color);
+  background-color: var(--background-color);
+  border-bottom: 1px solid var(--text-gray);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .header {
+  position: relative;
   display: flex;
-  padding: 1rem;
 }
 
 .logo-wrapper {
@@ -25,12 +28,16 @@
 }
 
 .menu-btn {
-  color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.theme-switch-btn {
+  color: var(--text-gray);
 }
 
 .navbar {
-  background-color: #eeeeee;
-  color: var(--text-black-light);
+  background-color: var(--background-color);
+  color: var(--text-primary);
   height: 100vh;
   position: fixed;
   right: 0;
@@ -41,29 +48,23 @@
 }
 
 .nav-links {
-  font-size: var(--font-size-sm);
+  font-size: var(--size-10);
   margin: 4rem 1rem 0 1rem;
   display: flex;
   flex-direction: column;
 }
 
-.nav-links li {
-  margin: 0.5rem;
-}
-
 .nav-links li a {
   display: inline-block;
-  padding: 1rem;
   width: 100%;
-  transition: all 0.3s linear;
 }
 
 .nav-links li a:hover {
-  background-color: var(--text-hover-background);
+  color: var(--primary-color);
 }
 
 .navbar-close-btn {
-  color: var(--text-black-light);
+  color: var(--text-gray);
   font-size: 1.2rem;
   left: 20px;
   position: absolute;
@@ -71,20 +72,23 @@
   transition: all 0.3s linear;
 }
 
-.navbar-close-btn:hover,
-.nav-links li a:hover {
-  color: var(--text-black-hover);
+.navbar-close-btn:hover {
+  color: var(--text-primary);
 }
 
 .show-navbar {
   width: 60vw;
 }
 
+.active {
+  color: var(--primary-color);
+}
+
 /* media queries  */
 @media screen and (min-width: 600px) {
   .header {
     align-items: center;
-    padding: 0 1rem;
+    padding: 0;
   }
 
   .menu-btn,
@@ -105,7 +109,6 @@
   }
 
   .nav-links {
-    font-size: var(--font-size-lg);
     flex-direction: row;
     align-items: center;
     margin: 0 0 0 2rem;
