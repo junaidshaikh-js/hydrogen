@@ -1,8 +1,4 @@
 @import url(./components/spacing.css);
 @import url(./components/grid.css);
 @import url(./components/typography.css);
-
-:root {
-  --secondary-txt: #6c757d;
-  --white-txt: white;
-}
+@import url(./components/variable.css);
