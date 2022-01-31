@@ -1,18 +1,44 @@
 :root {
-  --primary-color: #008cd6;
-  --primary-dark-color: #0069a1;
-  --primary-light-color: #99d1ef;
-  --secondary-color: #1a1a66;
+  --primary-dark-color: #0b265b;
+  --primary-darker-color: #214ab1;
+  --primary-color: #1c64f2;
+  --primary-light-color: #769eef;
+
+  --secondary-color: #1f2937;
+  --secondary-light-color: #3b4e68;
+
+  --secondary-hover-color: #f3f4f6;
+
+  --complementary-color: #f26625;
+
   --background-color: #eeeeee;
-  --text-primary: #111111;
-  --text-black-light: rgba(0, 0, 0, 0.65);
-  --text-black-hover: rgba(0, 0, 0, 0.85);
-  --text-hover-background: rgba(121, 82, 179, 0.1);
+  --text-hover-background: #7952b301;
+
+  --text-primary: #111827;
+  --text-gray: #6b7280;
+  --text-white: #fff;
+
+  --size-16: 2.75rem;
+  --size-15: 2.5rem;
+  --size-14: 2.25rem;
+  --size-13: 2rem;
+  --size-12: 1.75rem;
+  --size-11: 1.5rem;
+  --size-10: 1.25rem;
+  --size-9: 1rem;
+  --size-8: 0.875rem;
+  --size-7: 0.75rem;
+  --size-6: 0.625rem;
+  --size-5: 0.5rem;
+  --size-4: 0.375rem;
+  --size-3: 0.25rem;
+  --size-2: 0.125rem;
+  --size-1: 1px;
+  --size-0: 0;
+
   --logo-font-family: "Mochiy Pop P One", sans-serif;
   --primary-font-family: "Montserrat", sans-serif;
   --seconary-font-family: "Roboto Mono", monospace;
-  --font-size-sm: 1.2rem;
-  --font-size-lg: 1.4rem;
 }
 
 .visually-hidden {
@@ -24,7 +50,9 @@
   width: 1px;
 }
 
+/* all icons should inherit color from parent */
+
 [class^="f"] {
   font-size: 30px;
-  color: inherit;
+  /* color: inherit; */
 }
