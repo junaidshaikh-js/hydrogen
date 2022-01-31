@@ -96,15 +96,15 @@ p,
 
 /* txt utility */
 
-.secondary-txt {
+.txt-secondary {
   color: var(--secondary-txt);
 }
 
-.white-txt {
+.txt-white {
   color: var(--white-txt);
 }
 
-.strike-through-txt {
+.txt-strike-through {
   text-decoration: line-through;
 }
 
