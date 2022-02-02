@@ -1,0 +1,7 @@
+.home-main-wrapper {
+  margin-top: 5rem;
+}
+
+.home-main-wrapper a:hover {
+  color: white !important;
+}
