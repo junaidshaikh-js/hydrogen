@@ -39,20 +39,20 @@
           <nav class="navbar">
             <ul class="nav-links">
               <li class="m-sm active">
-                <a href="./index.html" class="border-10 p-1">Home</a>
+                <a href="./index.html" class="border-10">Home</a>
               </li>
               <li class="m-sm">
-                <a href="./docs/get-started.html" class="border-10 p-1">Docs</a>
+                <a href="./docs/get-started.html" class="border-10">Docs</a>
               </li>
               <li class="m-sm">
                 <a
                   href="https://github.com/junaidshaikh-js/hydrogen"
-                  class="border-10 p-1"
+                  class="border-10"
                   >Contribute <i class="fab fa-github-square"></i
                 ></a>
               </li>
-              <li class="m-sm">
-                <button class="theme-switch-btn p-1">
+              <li class="m-sm pt-1">
+                <button class="theme-switch-btn">
                   <i class="fas fa-moon" title="switch theme"></i>
                 </button>
               </li>
@@ -66,7 +66,8 @@
         </header>
       </div>
 
-      <div class="main-wrapper p-2 max-1000-center min-vh-85">
+      <!-- main section -->
+      <div class="home-main-wrapper p-2 max-1000-center min-vh-85">
         <main class="grid grid-50-50 min-vh-85 g-2 grid-y-center">
           <div class="hero-text">
             <h1>Build Website 10x Faster with Hydrogen</h1>
@@ -89,6 +90,7 @@
         </main>
       </div>
 
+      <!-- footer -->
       <div class="footer-wrapper bg-secondary txt-white">
         <footer class="txt-center py-2">
           <p>Made with ❤️ by Junaid</p>
@@ -108,7 +110,7 @@
     </div>
 
     <!-- script -->
-    <script src="./docs/js/navbar.js"></script>
-    <script src="./docs/js/switch-theme.js"></script>
+    <script src="./docs/js/navbar.js" defer></script>
+    <script src="./docs/js/switch-theme.js" defer></script>
   </body>
 </html>
