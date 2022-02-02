@@ -11,14 +11,16 @@
 .header-wrapper {
   background-color: var(--background-color);
   border-bottom: 1px solid var(--text-gray);
-  position: sticky;
-  top: 0;
   left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .header {
-  position: relative;
   display: flex;
+  position: relative;
 }
 
 .logo-wrapper {
@@ -57,10 +59,7 @@
 .nav-links li a {
   display: inline-block;
   width: 100%;
-}
-
-.nav-links li a:hover {
-  color: var(--primary-color);
+  padding: 1rem 1rem 1rem 0;
 }
 
 .navbar-close-btn {
@@ -85,10 +84,10 @@
 }
 
 /* media queries  */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
   .header {
     align-items: center;
-    padding: 0;
+    padding: 0 1rem;
   }
 
   .menu-btn,
