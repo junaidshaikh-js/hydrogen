@@ -2,9 +2,10 @@
   gap: 2rem;
 }
 
-/* .white-text {
-  color: var(--background-color);
-} */
+body a:hover {
+  color: var(--primary-color) !important;
+  transition: color 0.2s linear;
+}
 
 /* elements */
 .btn {
@@ -59,10 +60,6 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .grid-2-col {
-    grid-template-columns: 50% 50%;
-  }
-
   .max-1000-center {
     padding: 0;
   }
