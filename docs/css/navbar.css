@@ -120,5 +120,6 @@
 
   .nav-links li:last-child {
     margin-left: auto;
+    padding-top: 0;
   }
 }
