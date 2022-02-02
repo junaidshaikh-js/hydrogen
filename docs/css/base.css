@@ -12,7 +12,7 @@
   --complementary-color: #f26625;
 
   --background-color: #eeeeee;
-  --text-hover-background: #7952b301;
+  --text-hover-background: #7952b316;
 
   --text-primary: #111827;
   --text-gray: #6b7280;
@@ -50,9 +50,8 @@
   width: 1px;
 }
 
-/* all icons should inherit color from parent */
+/* all icons font-size should be 30px */
 
 [class^="f"] {
   font-size: 30px;
-  /* color: inherit; */
 }
