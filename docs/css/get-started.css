@@ -75,7 +75,7 @@
     left: 0;
     padding: 0;
     position: fixed;
-    top: 32px;
+    top: 0;
     width: 18rem;
     z-index: 1;
   }
