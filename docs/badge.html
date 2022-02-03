@@ -122,7 +122,116 @@
 
           <div class="main-content">
             <section>
-              <h1>Badge</h1>
+              <header>
+                <h1>Badge</h1>
+
+                <p>
+                  Badge can be used to show the status information of the user
+                  or some count information such as notification numbers or
+                  number of items in the cart.
+                </p>
+              </header>
+
+              <section>
+                <h2 id="badge-on-avatar">Badge on Avatar</h2>
+
+                <p>
+                  Badge on Avatar can show different user status, such as
+                  offline and online. We have different badges that can be used
+                  with avatar.
+                </p>
+
+                <p>
+                  Badge status includes online badge, offline badge, and number
+                  badge. You can add this badges at four positions, top left,
+                  top right, bottom right, and bottom left.
+                </p>
+
+                <div class="demo-container">
+                  <div class="badge-container">
+                    <div class="avatar avatar-lg">
+                      <img
+                        class="img-responsive img-round"
+                        src="../assets/avatar-girl.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="badge badge-lg badge-online top-left"></span>
+                  </div>
+
+                  <div class="badge-container">
+                    <div class="avatar avatar-md">
+                      <img
+                        class="img-responsive img-round"
+                        src="../assets/avatar-girl.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span class="badge badge-md badge-num top-right">3</span>
+                  </div>
+
+                  <div class="badge-container">
+                    <div class="avatar avatar-sm">
+                      <img
+                        class="img-responsive img-round"
+                        src="../assets/avatar-girl.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span
+                      class="badge badge-sm badge-offline bottom-right bold-txt"
+                    ></span>
+                  </div>
+
+                  <div class="badge-container">
+                    <div class="avatar avatar-xs">
+                      <img
+                        class="img-responsive img-round"
+                        src="../assets/avatar-girl.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span
+                      class="badge badge-xm badge-online bottom-left"
+                    ></span>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/c3ee5b153c63740826bd308c81ead938.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="badge-on-icons">Badge on Icons</h2>
+
+                <p>
+                  Number badges on icons is commonly used pattern to display
+                  number counts of notification or any other countable thing.
+                </p>
+
+                <div class="demo-container">
+                  <button class="btn btn-icon btn-icon-lg badge-container">
+                    <i class="fas fa-shopping-cart" title="shopping cart"></i>
+                    <span class="badge badge-lg badge-num top-right bold-txt"
+                      >5</span
+                    >
+                  </button>
+
+                  <button class="btn btn-icon btn-icon-md badge-container">
+                    <i class="fas fa-bell" title="notification"></i>
+                    <span class="badge badge-md badge-num top-right">20+</span>
+                  </button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/2d45accd22bdce3a5e5b7ab83a2729e0.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./alert.html">
@@ -140,7 +249,11 @@
               <h5>On This Page</h5>
               <ul>
                 <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                  <a href="#badge-on-avatar" class="py-1">Badge on Avatar</a>
+                </li>
+
+                <li class="m-sm">
+                  <a href="#badge-on-icons" class="py-1">Badge on Icons</a>
                 </li>
               </ul>
             </aside>

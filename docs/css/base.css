@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
 :root {
   --primary-dark-color: #0b265b;
   --primary-darker-color: #214ab1;
@@ -38,7 +40,8 @@
 
   --logo-font-family: "Mochiy Pop P One", sans-serif;
   --primary-font-family: "Montserrat", sans-serif;
-  --seconary-font-family: "Roboto Mono", monospace;
+  --secondary-font-family: "Inter", sans-serif;
+
   --fira-code: "Fira Code", monospace;
 }
 
