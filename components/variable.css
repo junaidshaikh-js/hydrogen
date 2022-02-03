@@ -14,4 +14,8 @@
   --btn-danger: #bb2d3b;
   --btn-warning: #ffca2c;
   --btn-info: #0dcaf0;
+
+  --online: #1ba81b;
+  --offline: #ff0000;
+  --number-bg: #0099ff;
 }
