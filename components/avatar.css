@@ -38,7 +38,6 @@
   background-color: var(--bg-primary);
   display: flex;
   justify-content: center;
-  text-align: center;
   color: var(--white-txt);
 }
 
@@ -60,7 +59,7 @@
   width: 5rem;
 }
 
-.avatar-xm {
+.avatar-xs {
   font-size: 0.875rem;
   height: 3rem;
   width: 3rem;
