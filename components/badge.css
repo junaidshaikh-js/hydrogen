@@ -1,0 +1,115 @@
+.badge-container {
+  box-sizing: border-box;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.badge {
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-lg {
+  font-size: 1.25rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.badge-md {
+  font-size: 1.25rem;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.badge-sm {
+  height: 1rem;
+  width: 1rem;
+}
+
+.badge-xm {
+  height: 0.875rem;
+  width: 0.875rem;
+}
+
+.badge-online {
+  background-color: rgb(27, 168, 27);
+}
+
+.badge-offline {
+  background-color: red;
+}
+
+.badge-num {
+  background-color: #0099ff;
+}
+
+.top-left {
+  left: 6%;
+  top: 7%;
+}
+
+.top-right {
+  right: 2%;
+  top: 2%;
+}
+
+.bottom-right {
+  right: 5%;
+  bottom: 10%;
+}
+
+.bottom-left {
+  left: 3%;
+  bottom: 10%;
+}
+
+/* button sytles  */
+/* TODO remove when button component will be added */
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  white-space: nowrap;
+}
+
+.btn-icon {
+  position: relative;
+}
+
+.btn-icon-lg i {
+  font-size: 3rem;
+}
+
+.btn-icon-md i {
+  font-size: 2rem;
+}
+
+.btn-icon .top-right {
+  top: -35%;
+  right: -30%;
+}
+
+.btn-icon .badge-lg {
+  font-size: 1rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.btn-icon .badge-md {
+  font-size: 0.75rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.btn-icon .badge-xm {
+  font-size: 0.625rem;
+  width: 0.75rem;
+  height: 0.75rem;
+}
