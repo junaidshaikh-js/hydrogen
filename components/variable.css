@@ -3,4 +3,15 @@
 
   --secondary-txt: #6c757d;
   --white-txt: #fff;
+
+  --primary-alert: #cfe2ff;
+  --secondary-alert: #e2e3e5;
+  --success-alert: #d1e7dd;
+  --danger-alert: #f8d7da;
+  --warning-alert: #fff3cd;
+  --info-alert: #cff4fc;
+  --btn-success: #157347;
+  --btn-danger: #bb2d3b;
+  --btn-warning: #ffca2c;
+  --btn-info: #0dcaf0;
 }
