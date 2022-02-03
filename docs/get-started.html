@@ -8,11 +8,11 @@
     <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
 
     <!-- font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@400;800&family=Roboto+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Mochiy+Pop+P+One&family=Montserrat:wght@400;800&family=Roboto+Mono&display=swap"
       rel="stylesheet"
     />
 
@@ -87,7 +87,7 @@
                   <h5 class="my-1">Get Started</h5>
                 </li>
 
-                <li>
+                <li class="active">
                   <a href="./get-started.html">Installation</a>
                 </li>
 
@@ -125,6 +125,50 @@
             <section>
               <h1>Get Started</h1>
 
+              <section class="introduction">
+                <h2 id="introduction">Introduction</h2>
+
+                <p>
+                  Welcome! Get started with <strong>Hydrogen</strong> and build
+                  web pages in no time. We provide the pre made components to
+                  speed up your process. You just need to add our stylesheet to
+                  you HTML page and copy-paste the HTML code given and customize
+                  your content.
+                </p>
+              </section>
+
+              <section class="quick-start">
+                <h2 id="quick-start">Quick Start</h2>
+
+                <p>
+                  Copy-paste the stylesheet <code>&lt;link&gt;</code> into your
+                  <code>&lt;head&gt;</code> element before all other stylesheets
+                  to load our CSS.
+                </p>
+
+                <div class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/2df04f0d397dbde23929c40be9931f29.js"></script>
+                  </code>
+                </div>
+              </section>
+
+              <section class="starter-template">
+                <h2 id="starter-template">Starter Template</h2>
+
+                <p>
+                  The following starter template uses the latest development
+                  standards. It used HTML5 doctype and also viewport metatag.
+                  Putting it all together the page will look like...
+                </p>
+
+                <div class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/793df60f9add647e362087ba84b52d86.js"></script>
+                  </code>
+                </div>
+              </section>
+
               <div class="next-pre-btns">
                 <a href="./avatar.html" class="ml-auto">
                   Avatar
@@ -136,7 +180,15 @@
               <h5>On This Page</h5>
               <ul>
                 <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                  <a href="#introduction" class="py-1">Introduction</a>
+                </li>
+
+                <li class="m-sm">
+                  <a href="#quick-start" class="py-1">Quick Start</a>
+                </li>
+
+                <li class="m-sm">
+                  <a href="#starter-template" class="py-1">Starter Template</a>
                 </li>
               </ul>
             </aside>
@@ -164,8 +216,8 @@
     </div>
 
     <!-- script -->
+    <script src="./js/switch-theme.js"></script>
     <script src="./js/navbar.js" defer></script>
-    <script src="./js/switch-theme.js" defer></script>
     <script src="./js/sidenav.js" defer></script>
   </body>
 </html>
