@@ -25,6 +25,7 @@
   </head>
   <body>
     <div class="wrapper">
+      <!-- header -->
       <div class="header-wrapper py-sm">
         <header class="header max-1200-center p-1">
           <div class="logo-wrapper">
@@ -69,6 +70,7 @@
       <!-- main section -->
       <div class="main-wrapper mx-1 mt-1">
         <main class="docs-main">
+          <!-- aside bar -->
           <aside class="aside-nav py-1 mt-2">
             <nav
               class="aside-navigation pl-sm"
@@ -120,9 +122,156 @@
             </nav>
           </aside>
 
+          <!-- main content -->
           <div class="main-content">
             <section>
-              <h1>Avatar</h1>
+              <div>
+                <h1>Avatar</h1>
+
+                <p>
+                  An 'avatar' is a small image that you can add to your profile.
+                  It can be a photo of you or of any other image that you want.
+                </p>
+
+                <p>
+                  Hydrogen provides two type of avatars viz. image, and text
+                  with four different sizes which are large, medium, small and
+                  extra small.
+                </p>
+              </div>
+
+              <section>
+                <h2 id="image-avatar">Image Avatar</h2>
+
+                <p>
+                  You can use <code>avatar</code> class with contextual classes
+                  to add size to the avatars. For example, if you want an image
+                  avatar of medium size you can use
+                  <code>class="avatar avatar-md</code>. By default avatars are
+                  shaped as circle. Don't forget to add
+                  <code>img-responsive</code> and <code>img-round</code> class
+                  to <code>img</code> element.
+                </p>
+
+                <h3 id="round-image-avatar">Round Image Avatar</h3>
+                <div class="demo-container">
+                  <figure class="avatar avatar-lg">
+                    <img
+                      class="img-responsive img-round"
+                      src="../assets/avatar-girl.jpg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar avatar-md">
+                    <img
+                      class="img-responsive img-round"
+                      src="../assets/avatar-girl.jpg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar avatar-sm">
+                    <img
+                      class="img-responsive img-round"
+                      src="../assets/avatar-girl.jpg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar avatar-xm">
+                    <img
+                      class="img-responsive img-round"
+                      src="../assets/avatar-girl.jpg"
+                      alt="avatar"
+                    />
+                  </figure>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/78e954378f76eb75dc556e10a640d3fc.js"></script>
+                  </code>
+                </figure>
+
+                <h3 id="square-image-avatar">Square Image Avatar</h3>
+
+                <p>Use <code>avatar-sq</code> class to make avatar square.</p>
+
+                <div class="demo-container">
+                  <figure class="avatar-sq avatar-lg">
+                    <img
+                      class="img-responsive"
+                      src="../assets/avatar-boy.jpeg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar-sq avatar-md">
+                    <img
+                      class="img-responsive"
+                      src="../assets/avatar-boy.jpeg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar-sq avatar-sm">
+                    <img
+                      class="img-responsive"
+                      src="../assets/avatar-boy.jpeg"
+                      alt="avatar"
+                    />
+                  </figure>
+
+                  <figure class="avatar-sq avatar-xm">
+                    <img
+                      class="img-responsive"
+                      src="../assets/avatar-boy.jpeg"
+                      alt="avatar"
+                    />
+                  </figure>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/71c3fec0f3bf00c53817ebdab17bbaab.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="text-avatar">Text Avatar</h2>
+
+                <p>
+                  In text avatar you can use initials of the user or their first
+                  or last name. You need to add <code>avatar-text</code> class
+                  along with the size contextual classes.
+                </p>
+
+                <div class="demo-container">
+                  <div class="avatar-text avatar-lg">
+                    <span>Junaid</span>
+                  </div>
+
+                  <div class="avatar-text avatar-md">
+                    <span>JS</span>
+                  </div>
+
+                  <div class="avatar-text avatar-sm">
+                    <span>Shaikh</span>
+                  </div>
+
+                  <div class="avatar-text avatar-xm">
+                    <span>AB</span>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/4d1b8fac68c76395e6963651ed81f5c4.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./get-started.html">
@@ -135,11 +284,29 @@
                 </a>
               </div>
             </section>
+
+            <!-- page navigation -->
             <aside class="page-navigation">
               <h5>On This Page</h5>
               <ul>
                 <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                  <a href="#image-avatar" class="py-1">Image Avatar</a>
+                </li>
+
+                <li class="m-sm pl-sm">
+                  <a href="#round-image-avatar" class="py-1"
+                    >Round Image Avatar</a
+                  >
+                </li>
+
+                <li class="m-sm pl-sm">
+                  <a href="#square-image-avatar" class="py-1"
+                    >Square Image Avatar</a
+                  >
+                </li>
+
+                <li class="m-sm">
+                  <a href="#text-avatar" class="py-1">Text Avatar</a>
                 </li>
               </ul>
             </aside>
