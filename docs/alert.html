@@ -122,7 +122,110 @@
 
           <div class="main-content">
             <section>
-              <h1>Alert</h1>
+              <div>
+                <h1>Alert</h1>
+
+                <p>
+                  Alerting makes it possible for people to keep up with the
+                  information that matters most to them. Provide contextual
+                  feedback messages for typical user actions with the handful of
+                  available and flexible alert messages.
+                </p>
+              </div>
+
+              <section>
+                <h2 id="simple-alert">Simple Alert</h2>
+
+                <p>
+                  Use contextual classes to give user different messages based
+                  on context such as success, danger, or warning, etc. By
+                  default alerts will take 100% width of their parent element.
+                </p>
+
+                <div class="demo-container">
+                  <div class="alert alert-primary">A primary alert</div>
+                  <div class="alert alert-secondary">A secondary alert</div>
+                  <div class="alert alert-success">A success alert</div>
+                  <div class="alert alert-danger">A danger alert</div>
+                  <div class="alert alert-warning">A warning alert</div>
+                  <div class="alert alert-info">A info alert</div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/eb316fa6e49ddb504ec1f6db715427ad.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="alert-with-icon">Alert with Icon</h2>
+
+                <p>
+                  An icon is added before the message of alert to visually
+                  convey the message. You can add any icon you want.
+                </p>
+
+                <div class="demo-container">
+                  <div class="alert alert-success">
+                    <span class="pr-sm"
+                      ><i class="fas fa-check-circle"></i
+                    ></span>
+                    A success alert
+                  </div>
+
+                  <div class="alert alert-warning">
+                    <span class="pr-sm"
+                      ><i class="fas fa-exclamation-circle"></i
+                    ></span>
+                    A warning alert
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/38e2d27425564368f3729f56cd695971.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="alert-with-dismiss">Alert with Dismiss</h2>
+
+                <p>
+                  Alert with dimiss contains a close button, which when clicked
+                  remove the alert from website.
+                </p>
+
+                <div class="demo-container">
+                  <div class="alert alert-close alert-warning">
+                    <span class="pr-sm"
+                      ><i class="fas fa-exclamation-circle"></i
+                    ></span>
+                    A warning alert
+
+                    <span class="close-alert"
+                      ><i class="fas fa-times"></i
+                    ></span>
+                  </div>
+                </div>
+
+                <p class="h4">CSS Code</p>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/fe97e9ea8daea1c6d40440fad1c35ac4.js"></script>
+                  </code>
+                </figure>
+
+                <p class="h4">JavaScript Code</p>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/c537b83d100967cdc1a604061ff9308f.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./avatar.html">
@@ -140,7 +243,17 @@
               <h5>On This Page</h5>
               <ul>
                 <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                  <a href="#simple-alert" class="py-1"> Simple Alert </a>
+                </li>
+
+                <li class="m-sm">
+                  <a href="#alert-with-icon" class="py-1">Alert With Icon </a>
+                </li>
+
+                <li class="m-sm">
+                  <a href="#alert-with-dismiss" class="py-1"
+                    >Alert With Dismiss
+                  </a>
                 </li>
               </ul>
             </aside>
@@ -171,5 +284,6 @@
     <script src="./js/switch-theme.js"></script>
     <script src="./js/navbar.js" defer></script>
     <script src="./js/sidenav.js" defer></script>
+    <script src="../components/js/alert-dismiss.js"></script>
   </body>
 </html>
