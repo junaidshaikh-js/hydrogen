@@ -1,0 +1,59 @@
+.alert {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.alert-primary {
+  background-color: var(--primary-alert);
+  border-color: #2a7fff;
+  color: #0e2e5e;
+}
+
+.alert-secondary {
+  background-color: var(--secondary-alert);
+  border-color: #919191;
+  color: #3d3131;
+}
+
+.alert-success {
+  background-color: var(--success-alert);
+  border-color: #00eb81;
+  color: #0c5a37;
+}
+
+.alert-danger {
+  background-color: var(--danger-alert);
+  border-color: #ff5362;
+  color: #b41c29;
+}
+
+.alert-warning {
+  background-color: var(--warning-alert);
+  border-color: #ffd038;
+  color: #9e7c0e;
+}
+
+.alert-info {
+  background-color: var(--info-alert);
+  border-color: #29d8ff;
+  color: #0b7e97;
+}
+
+/* alert with icon */
+.alert i {
+  font-size: inherit;
+}
+
+/* alert with close btn */
+.alert-close {
+  position: relative;
+}
+
+.close-alert {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+}
