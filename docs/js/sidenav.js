@@ -16,6 +16,8 @@ dropDownBtn.addEventListener("click", () => {
 
     asideNav.style.height = "2rem";
 
+    asideNav.style.overflowY = "hidden";
+
     dropdownArrow.style.transform = "rotate(0)";
   }
 });
