@@ -68,12 +68,18 @@
   font-size: var(--size-10);
 }
 
-.code-container {
+.code-container,
+.demo-container {
   background-color: #eee;
   margin: 2rem 0;
   padding: var(--size-8);
   text-align: center;
   border-radius: 10px;
+}
+
+.code-container {
+  max-height: 400px;
+  overflow: auto;
 }
 
 .code-container code {
@@ -82,6 +88,18 @@
 
 .code-container ::-webkit-scrollbar {
   display: none;
+}
+
+.demo-container {
+  align-items: center;
+  border: 1px solid var(--text-gray);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.demo-container > * {
+  margin: 1rem 1rem 1rem 0;
 }
 
 /* github gist */
@@ -142,8 +160,9 @@
     width: 30%;
   }
 
-  .code-container {
-    width: 80%;
+  .code-container,
+  .demo-container {
+    width: 90%;
     margin: 2rem auto;
   }
 }

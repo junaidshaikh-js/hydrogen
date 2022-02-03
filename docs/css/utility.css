@@ -32,6 +32,10 @@ body a:hover {
   height: auto;
 }
 
+.code {
+  color: var(--primary-color);
+}
+
 /* layout */
 
 .min-vh-85 {
