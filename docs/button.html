@@ -122,7 +122,172 @@
 
           <div class="main-content">
             <section>
-              <h1>Button</h1>
+              <div>
+                <h1>Button</h1>
+
+                <p>
+                  Buttons are important part of any website. They are also
+                  called call to action. Hydrogen provides various types of
+                  buttons that you can use in our website's form, dilaog and
+                  more.
+                </p>
+              </div>
+
+              <section>
+                <h2 id="simple-button">Simple Button</h2>
+
+                <p>
+                  Hydrogen provides buttons with different state such as
+                  success, dange jus like alerts.
+                </p>
+
+                <div class="demo-container">
+                  <button class="btn btn-primary" tabindex="-1">Primary</button>
+
+                  <button class="btn btn-secondary" tabindex="-1">
+                    Secondary
+                  </button>
+
+                  <button class="btn btn-success" tabindex="-1">Success</button>
+
+                  <button class="btn btn-danger" tabindex="-1">Danger</button>
+
+                  <button class="btn btn-warning" tabindex="-1">Warning</button>
+
+                  <button class="btn btn-info" tabindex="-1">Info</button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/52fd36cc9f2f6311f8a5740ac2a63b51.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="outline-button">Outline Button</h2>
+
+                <p>
+                  There are two types of outline buttons, primary and secondary.
+                </p>
+
+                <div class="demo-container">
+                  <button class="btn btn-primary-outline" tabindex="-1">
+                    Primary Outline
+                  </button>
+
+                  <button class="btn btn-secondary-outline" tabindex="-1">
+                    Secondary Outline
+                  </button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/b394c1ced9c1e480af56d6eefd2e1193.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="disable-button">Disabled Button</h2>
+
+                <p>
+                  Make buttons look inactive by adding the disabled boolean
+                  attribute to any <code>Button</code> element. Disabled buttons
+                  have <code> pointer-events: none </code> applied to,
+                  preventing hover and active states from triggering.
+                </p>
+
+                <div class="demo-container">
+                  <button type="button" class="btn btn-primary" disabled>
+                    Disabled
+                  </button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/0ceebf8b43ba811c373443d9aaabe948.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="button-sizes">Button Sizes</h2>
+
+                <p>
+                  Use <code>btn-small</code> and <code>btn-lg</code> class to
+                  create small and large button
+                </p>
+
+                <div class="demo-container">
+                  <button type="button" class="btn btn-primary btn-lg">
+                    Large Button
+                  </button>
+
+                  <button type="button" class="btn btn-success btn-sm">
+                    Small Button
+                  </button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/0c3fd8e4c4648363ec81c1aa53edc917.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="button-link-and-icon">Button Link and Icon</h2>
+
+                <p>
+                  You can use icons as a button which are fully accessibile to
+                  screen readers and also link as a button.
+                </p>
+
+                <div class="demo-container">
+                  <a href="#" class="btn btn-link" role="button"
+                    >Primary Link</a
+                  >
+
+                  <button class="btn icon-btn-primary" tabindex="-1">
+                    <i class="fas fa-shopping-cart" title="Shopping Cart"></i>
+                  </button>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/793ef162449e2265d37d92fecd20fc2e.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="toggle-button">Toggle Button</h2>
+
+                <p>
+                  A toggle switch is a digital on/off switch. Toggle switches
+                  are best used for changing the state of system functionalities
+                  and preferences. Toggles may replace two radio buttons or a
+                  single checkbox to allow users to choose between two opposing
+                  states.
+                </p>
+
+                <div class="demo-container">
+                  <div class="toggle-btn btn">
+                    <label
+                      ><input type="checkbox" class="toggle-input" />
+                      <span class="slider"></span>
+                      <span class="message"></span>
+                    </label>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/da5d34ef42add6b77d7c938aeee8a671.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./badge.html">
@@ -139,8 +304,28 @@
             <aside class="page-navigation">
               <h5>On This Page</h5>
               <ul>
-                <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                <li>
+                  <a href="#simple-button">Simple Button</a>
+                </li>
+
+                <li>
+                  <a href="#outline-button">Outline Button</a>
+                </li>
+
+                <li>
+                  <a href="#disable-button">Disable Button</a>
+                </li>
+
+                <li>
+                  <a href="#button-sizes">Button Sizes</a>
+                </li>
+
+                <li>
+                  <a href="#button-link-and-icon">Button Link and Icon</a>
+                </li>
+
+                <li>
+                  <a href="#toggle-button">Toggle Button</a>
                 </li>
               </ul>
             </aside>

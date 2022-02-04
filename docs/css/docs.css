@@ -71,7 +71,7 @@
 .code-container,
 .demo-container {
   background-color: #eee;
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
   padding: var(--size-8);
   border-radius: 10px;
 }
@@ -162,6 +162,6 @@
   .code-container,
   .demo-container {
     width: 90%;
-    margin: 2rem auto;
+    margin: 2rem auto 3rem;
   }
 }
