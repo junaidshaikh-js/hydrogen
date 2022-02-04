@@ -7,7 +7,7 @@
 }
 
 .btn:focus {
-  outline: 2px double var(--bg-primary);
+  outline: 2px double var(--bg-secondary);
   outline-offset: 2px;
 }
 
