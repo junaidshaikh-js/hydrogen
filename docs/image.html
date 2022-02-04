@@ -122,7 +122,63 @@
 
           <div class="main-content">
             <section>
-              <h1>Image</h1>
+              <div>
+                <h1>Image</h1>
+
+                <p>
+                  Images can be made reponsive very easily. Responsive images
+                  are images that never becomes wider than their parent
+                  container.
+                </p>
+              </div>
+
+              <section>
+                <h1 id="responsive-image">Responsive Image</h1>
+
+                <p>
+                  Images can be made responsive by adding
+                  <code>.img-responsive</code> to the <code>img</code> element.
+                </p>
+
+                <div class="demo-container">
+                  <img
+                    class="img-responsive"
+                    src="../assets/responsive-img.jpg"
+                    alt="reponsive image"
+                  />
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/9629a6d29f0790b57e2607609104207b.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="round-image">Round Image</h2>
+
+                <p>
+                  Round or circular images are used in lot of place, such as
+                  profile picture. You can make image round or circular using
+                  <code>.img-round</code> class which apply
+                  <code>border-radius: 50%</code> to the image element.
+                </p>
+
+                <div class="demo-container">
+                  <img
+                    class="img-responsive img-round"
+                    src="../assets/round.jpeg"
+                    alt="a girl"
+                  />
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/aff59cc1098b7856d402f9e7ff4a5fd2.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./card.html">
@@ -139,8 +195,12 @@
             <aside class="page-navigation">
               <h5>On This Page</h5>
               <ul>
-                <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                <li>
+                  <a href="#responsive-image">Responsive Image</a>
+                </li>
+
+                <li>
+                  <a href="#round-image">Round Image</a>
                 </li>
               </ul>
             </aside>
