@@ -69,11 +69,11 @@ textarea:focus {
 }
 
 .valid-message {
-  color: rgb(0, 117, 0);
+  color: var(--green-color);
 }
 
 .invalid-message {
-  color: red;
+  color: var(--color-red);
 }
 
 .form .form-field:valid ~ .valid-message {
