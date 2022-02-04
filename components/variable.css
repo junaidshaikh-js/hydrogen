@@ -6,6 +6,8 @@
   --white-txt: #fff;
   --black-color: #000;
 
+  --light-shadow: 2px 2px 8px;
+
   --primary-alert: #cfe2ff;
   --secondary-alert: #e2e3e5;
   --success-alert: #d1e7dd;
