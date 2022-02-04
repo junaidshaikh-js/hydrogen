@@ -122,7 +122,210 @@
 
           <div class="main-content">
             <section>
-              <h1>Form</h1>
+              <div>
+                <h1>Form</h1>
+
+                <p>
+                  Hydrogen has simple form fields and form fields with
+                  validation. Examples are listed below.
+                </p>
+              </div>
+
+              <section>
+                <h2 id="simple-form-fields">Simple Form Fields</h2>
+
+                <p>
+                  You can use <code>.field-required</code> class in the lable of
+                  the input element to add required styles. Also, don't forget
+                  to add <code>required</code> attribute to the input element.
+                  <code>.w-100</code> class makes the input element 100% width
+                  of the parent element.
+                </p>
+
+                <div class="demo-container">
+                  <form class="form">
+                    <label for="input" class="form-label txt-md field-required">
+                      Username
+                    </label>
+                    <input
+                      type="text"
+                      class="form-field my-sm p-sm border-sm w-100"
+                      placeholder="Enter your username"
+                      id="input"
+                      required
+                    />
+
+                    <label for="textarea" class="form-label txt-md"
+                      >How can we help you?</label
+                    >
+                    <textarea
+                      id="textarea"
+                      cols="30"
+                      rows="10"
+                      class="p-sm border-sm"
+                      placeholder="Explain in brief"
+                    ></textarea>
+                  </form>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/db29af1292a64ad243180ea0c193fb90.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="form-with-validation-style">
+                  Form with validation style
+                </h2>
+
+                <p>
+                  Here <code>.row</code> class makes the field to be in one
+                  line. You need to add <code>novalidate</code> attirbute to the
+                  <code>form</code> element. Also, you can use your own error
+                  and success message.
+                </p>
+
+                <div class="demo-container">
+                  <form class="form" novalidate>
+                    <div class="row">
+                      <div class="label-container">
+                        <label for="name" class="form-label field-required p-md"
+                          >Enter your name</label
+                        >
+                      </div>
+
+                      <div class="input-container">
+                        <input
+                          class="form-field my-sm p-sm border-sm"
+                          type="text"
+                          id="name"
+                          placeholder="Sweet name"
+                          required
+                        />
+
+                        <div
+                          class="form-field-validation-message valid-message"
+                        >
+                          <span><i class="fas fa-check-circle"></i></span>
+                          Looks Good!
+                        </div>
+
+                        <div
+                          class="form-field-validation-message invalid-message"
+                        >
+                          <span><i class="fas fa-info-circle"></i></span>
+                          Please enter you name
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="label-container">
+                        <label
+                          for="email"
+                          class="form-label field-required p-md"
+                          >Enter your Email</label
+                        >
+                      </div>
+                      <div class="input-container">
+                        <input
+                          class="form-field my-sm p-sm border-sm"
+                          type="email"
+                          id="email"
+                          placeholder="john@example.com"
+                          required
+                        />
+
+                        <div
+                          class="form-field-validation-message valid-message"
+                        >
+                          <span><i class="fas fa-check-circle"></i></span>
+                          Looks Good!
+                        </div>
+
+                        <div
+                          class="form-field-validation-message invalid-message"
+                        >
+                          <span><i class="fas fa-info-circle"></i></span>
+                          Enter correct email
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="label-container">
+                        <label for="stateList" class="form-label p-md"
+                          >Select Gender</label
+                        >
+                      </div>
+                      <div class="input-container">
+                        <select
+                          class="form-field my-sm p-sm border-sm"
+                          type=""
+                          id="stateList"
+                        >
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="other">Other</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="row checkbox-field">
+                      <div class="input-container mr-1">
+                        <input
+                          class="form-field p-sm border-sm"
+                          type="checkbox"
+                          id="email"
+                          placeholder="john@example.com"
+                          required
+                        />
+
+                        <div
+                          class="form-field-validation-message valid-message"
+                        >
+                          <span><i class="fas fa-check-circle"></i></span>
+                          Looks Good!
+                        </div>
+
+                        <div
+                          class="form-field-validation-message invalid-message"
+                        >
+                          <span><i class="fas fa-info-circle"></i></span>
+                          You must agree before submitting
+                        </div>
+                      </div>
+
+                      <label for="email" class="form-label field-required p-md"
+                        >Agree to terms and Services</label
+                      >
+                    </div>
+
+                    <button
+                      class="btn btn-primary-outline btn-sm mt-2"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </form>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/6584c2b7030f0f04036262cedc76d3ba.js"></script>
+                  </code>
+                </figure>
+
+                <p class="h4">JavaScript Code</p>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/9d0ea72954ddc9a9f2f86db217066d1e.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./image.html">
@@ -135,8 +338,14 @@
             <aside class="page-navigation">
               <h5>On This Page</h5>
               <ul>
-                <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                <li>
+                  <a href="#simple-form-fields">Simple Form Fields</a>
+                </li>
+
+                <li>
+                  <a href="#form-with-validation-style"
+                    >Form with validation style</a
+                  >
                 </li>
               </ul>
             </aside>
@@ -167,5 +376,6 @@
     <script src="./js/switch-theme.js"></script>
     <script src="./js/navbar.js" defer></script>
     <script src="./js/sidenav.js" defer></script>
+    <script src="../components/js/form.js"></script>
   </body>
 </html>
