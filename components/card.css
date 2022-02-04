@@ -16,7 +16,7 @@
 }
 
 .card .discount-percent {
-  color: #006e00;
+  color: var(--green-color);
 }
 
 /* horizontal card */
@@ -117,19 +117,19 @@
 
 /* border radius */
 
-.border-s {
+.border-sm {
   border-radius: 5px;
 }
 
-.border-m {
+.border-md {
   border-radius: 10px;
 }
 
-.border-l {
+.border-lg {
   border-radius: 15px;
 }
 
-.border-f {
+.border-full {
   border-radius: 999px;
 }
 
