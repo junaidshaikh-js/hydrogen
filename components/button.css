@@ -39,7 +39,7 @@
 
 .btn.btn-primary-outline {
   border: 1px solid var(--bg-primary);
-  color: black;
+  color: var(--black-color);
 }
 
 .btn-primary-outline:hover {
@@ -49,7 +49,7 @@
 
 .btn.btn-secondary {
   background-color: var(--bg-secondary);
-  color: black;
+  color: var(--black-color);
 }
 
 .btn-secondary:hover {
@@ -58,7 +58,7 @@
 
 .btn.btn-secondary-outline {
   border: 1px solid var(--bg-secondary);
-  color: black;
+  color: var(--black-color);
 }
 
 .btn.btn-secondary-outline:hover {
@@ -70,7 +70,7 @@
 }
 
 .btn-success:hover {
-  background-color: rgb(17, 88, 58);
+  background-color: #11583a;
 }
 
 .btn-danger {
@@ -83,7 +83,7 @@
 
 .btn.btn-warning {
   background-color: var(--btn-warning);
-  color: black;
+  color: var(--black-color);
 }
 
 .btn.btn-warning:hover {
@@ -92,7 +92,7 @@
 
 .btn.btn-info {
   background-color: var(--btn-info);
-  color: black;
+  color: var(--black-color);
 }
 
 .btn-info:hover {
@@ -131,7 +131,7 @@
   display: inline-block;
   height: 40px;
   width: 90px;
-  outline: 2px solid black;
+  outline: 2px solid var(--black-color);
   position: relative;
 }
 
@@ -174,7 +174,7 @@
 .message::after {
   position: absolute;
   content: "OFF";
-  color: black;
+  color: var(--black-color);
   font-weight: bold;
   font-size: 1.2rem;
   top: 25%;
