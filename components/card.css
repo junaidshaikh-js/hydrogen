@@ -1,0 +1,139 @@
+.card {
+  max-width: 100%;
+  background-color: var(--white-txt);
+}
+
+.card h4 {
+  margin: 0.825rem 0;
+}
+
+.card i {
+  font-size: inherit;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+
+.card .discount-percent {
+  color: var(--green-color);
+}
+
+/* horizontal card */
+
+.card-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: 150px;
+  height: 90%;
+}
+
+.card-body {
+  width: calc(100% - 180px);
+}
+
+.card-btn-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.card-btn-container .btn-primary {
+  color: var(--white-txt);
+}
+
+/* horizontal card with img top */
+.card.img-top .card-image {
+  align-self: flex-start;
+  margin-top: 1.5rem;
+}
+
+/* vertical card */
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-vertical .card-image {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-vertical .card-body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* card overlay */
+.card-overlay {
+  position: relative;
+}
+
+.card.card-overlay {
+  padding-left: 0;
+}
+
+.overlay-text {
+  align-items: center;
+  background-color: #80808073;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.overlay-text span {
+  background-color: var(--secondary-txt);
+}
+
+/* card dismiss */
+
+.card-dismiss {
+  position: relative;
+}
+
+.btn.card-dismiss-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--black-color);
+  font-size: 5rem;
+}
+
+.btn.card-dismiss-btn i {
+  font-size: 1.5rem;
+}
+
+/* TODO  */
+/* to be removed after adding utitlity classes  */
+
+/* border radius */
+
+.border-sm {
+  border-radius: 5px;
+}
+
+.border-md {
+  border-radius: 10px;
+}
+
+.border-lg {
+  border-radius: 15px;
+}
+
+.border-full {
+  border-radius: 999px;
+}
+
+/* box shadow */
+.box-shadow {
+  box-shadow: var(--light-shadow) var(--secondary-text);
+}

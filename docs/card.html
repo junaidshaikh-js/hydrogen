@@ -122,7 +122,377 @@
 
           <div class="main-content">
             <section>
-              <h1>Card</h1>
+              <div>
+                <h1>Card</h1>
+
+                <p>
+                  Cards can be used to show brief information about particular
+                  thing. You can use card for different purpose such as product
+                  information. Cards takes 100% width of their parent, to give
+                  specific widht, wrap the card inside the container and add
+                  width to that container.
+                </p>
+              </div>
+
+              <section>
+                <h2 id="horizontal-card">Horizantal Card</h2>
+
+                <p>
+                  Hydrogen provides two types of horizontal card. Card with
+                  image in center and card with image at the top of the card.
+                  You need to add <code>img-top</code> class to make the image
+                  appear at the top, by default it is in center.
+                </p>
+
+                <div class="demo-container">
+                  <article
+                    class="card card-horizontal p-1 border-md box-shadow"
+                    style="color: #000"
+                  >
+                    <div class="card-image">
+                      <img
+                        class="img-responsive"
+                        src="../assets/product.webp"
+                        alt="product image"
+                      />
+                    </div>
+                    <div class="card-body ml-1">
+                      <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                      <small class="txt-secondary">Sold by ITNXT</small>
+                      <p class="txt-rg">
+                        This laptop packs a punch in terms of performance as it
+                        comes with an AMD Ryzen 5500U processor and NVIDIA
+                        GeForce GTX 1650 graphics processor.
+                      </p>
+
+                      <div class="price-container mb-1">
+                        <span class="txt-md mr-1 txt-bold">₹46,990</span>
+                        <span class="txt-strike-through txt-secondary mr-1"
+                          >₹56,999</span
+                        >
+                        <span class="discount-percent txt-rg">17% off</span>
+                      </div>
+
+                      <div class="card-btn-container">
+                        <button class="btn btn-primary">
+                          <i
+                            class="fas fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>
+                          <span>Add to Cart</span>
+                        </button>
+
+                        <button class="btn btn-secondary-outline">
+                          <span>Save for later</span>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+
+                  <!-- image at top -->
+                  <article
+                    class="card card-horizontal p-1 img-top border-md box-shadow"
+                    style="color: #000"
+                  >
+                    <div class="card-image">
+                      <img
+                        class="img-responsive"
+                        src="../assets/product.webp"
+                        alt="product image"
+                      />
+                    </div>
+                    <div class="card-body ml-1">
+                      <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                      <small class="txt-secondary">Sold by ITNXT</small>
+                      <p class="txt-rg">
+                        This laptop packs a punch in terms of performance as it
+                        comes with an AMD Ryzen 5500U processor and NVIDIA
+                        GeForce GTX 1650 graphics processor.
+                      </p>
+
+                      <div class="price-container mb-1">
+                        <span class="txt-md mr-1 txt-bold">₹46,990</span>
+                        <span class="txt-strike-through txt-secondary mr-1"
+                          >₹56,999</span
+                        >
+                        <span class="discount-percent txt-rg">17% off</span>
+                      </div>
+
+                      <div class="card-btn-container">
+                        <button class="btn btn-primary">
+                          <i
+                            class="fas fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>
+                          <span>Add to Cart</span>
+                        </button>
+
+                        <button class="btn btn-secondary-outline">
+                          <span>Save for later</span>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/3c235dd9d72ab933da6e4274eca58804.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="vertical-card">Vertical Card</h2>
+
+                <p>
+                  Add <code>card-vertical</code> class for the vertical card,
+                  everything remains the same.
+                </p>
+
+                <div class="demo-container">
+                  <article
+                    class="card card-vertical p-1 border-md img-top"
+                    style="color: #000"
+                  >
+                    <div class="card-image">
+                      <img
+                        class="img-responsive"
+                        src="../assets/product.webp"
+                        alt="product image"
+                      />
+                    </div>
+                    <div class="card-body ml-1">
+                      <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                      <small class="txt-secondary">Sold by ITNXT</small>
+                      <p class="txt-rg">
+                        This laptop packs a punch in terms of performance as it
+                        comes with an AMD Ryzen 5500U processor and NVIDIA
+                        GeForce GTX 1650 graphics processor.
+                      </p>
+
+                      <div class="price-container mb-1">
+                        <span class="txt-md mr-1 txt-bold">₹46,990</span>
+                        <span class="txt-strike-through txt-secondary mr-1"
+                          >₹56,999</span
+                        >
+                        <span class="discount-percent p-rg">17% off</span>
+                      </div>
+
+                      <div class="card-btn-container">
+                        <button class="btn btn-primary">
+                          <i class="fas fa-shopping-cart"></i>
+                          <span>Add to Cart</span>
+                        </button>
+
+                        <button class="btn btn-secondary-outline">
+                          <span>Save for later</span>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/c62f108b63b2f8e867bdca656a3aa136.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="card-with-text-overlay">Card with text overlay</h2>
+
+                <p>
+                  Card with text overlay can be used to add status information
+                  about the product such as out of stock.
+                </p>
+
+                <div class="demo-container">
+                  <article
+                    class="card card-vertical card-overlay p-1 border-md"
+                    style="color: #000"
+                  >
+                    <div class="overlay-container">
+                      <div class="card-image">
+                        <img
+                          class="img-responsive"
+                          src="../assets/product.webp"
+                          alt="product image"
+                        />
+                      </div>
+                      <div class="card-body ml-1">
+                        <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                        <small class="txt-secondary">Sold by ITNXT</small>
+                        <p class="txt-rg">
+                          This laptop packs a punch in terms of performance as
+                          it comes with an AMD Ryzen 5500U processor and NVIDIA
+                          GeForce GTX 1650 graphics processor.
+                        </p>
+
+                        <div class="price-container mb-1">
+                          <span class="txt-md mr-1 txt-bold">₹46,990</span>
+                          <span class="txt-strike-through txt-secondary mr-1"
+                            >₹56,999</span
+                          >
+                          <span class="discount-percent txt-rg">17% off</span>
+                        </div>
+
+                        <div class="card-btn-container">
+                          <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Add to Cart</span>
+                          </button>
+
+                          <button class="btn btn-secondary-outline">
+                            <span>Save for later</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="overlay-text txt-lg txt-white border-md">
+                      <span class="p-1 border-md"> OUT OF STOCK </span>
+                    </div>
+                  </article>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/5892d4f9fbb8d9c113c869812f23c3bb.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="text-only-card">Text only Card</h2>
+
+                <p>
+                  Text only card don't contain image. Infomation is conveyed
+                  only using text.
+                </p>
+
+                <div class="demo-container">
+                  <article
+                    class="card card-vertical p-1 border-md"
+                    style="color: #000"
+                  >
+                    <div class="card-body">
+                      <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                      <small class="txt-secondary">Sold by ITNXT</small>
+                      <p class="txt-rg">
+                        This laptop packs a punch in terms of performance as it
+                        comes with an AMD Ryzen 5500U processor and NVIDIA
+                        GeForce GTX 1650 graphics processor. It Features a 39.62
+                        cm (15.6) Full HD LED Backlit screen, with an 81.61%
+                        screen-to-body ratio.
+                      </p>
+
+                      <div class="price-container mb-1">
+                        <span class="txt-lg mr-1 txt-bold">₹46,990</span>
+                        <span class="txt-strike-through txt-secondary mr-1"
+                          >₹56,999</span
+                        >
+                        <span class="discount-percent">17% off</span>
+                      </div>
+
+                      <div class="card-btn-container">
+                        <button class="btn btn-primary">
+                          <i
+                            class="fas fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>
+                          <span>Add to Cart</span>
+                        </button>
+
+                        <button class="btn btn-secondary-outline">
+                          <span>Save for later</span>
+                        </button>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/300154901626d3f0cb5bd5b8df5014ee.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="card-with-dismiss">Card With Dismiss</h2>
+
+                <p>
+                  You can use card with dismiss if you want the feature where
+                  user is able to dismiss the card.
+                </p>
+
+                <div class="demo-container">
+                  <article
+                    class="card card-vertical p-1 border-md card-dismiss"
+                    style="color: #000"
+                  >
+                    <div class="card-image">
+                      <img
+                        class="img-responsive"
+                        src="../assets/product.webp"
+                        alt="product image"
+                      />
+                    </div>
+
+                    <div class="card-body ml-1">
+                      <h4 class="card-title">Acer Aspire 7 AMD Ryzen 5</h4>
+                      <small class="txt-secondary">Sold by ITNXT</small>
+                      <p class="txt-rg">
+                        This laptop packs a punch in terms of performance as it
+                        comes with an AMD Ryzen 5500U processor and NVIDIA
+                        GeForce GTX 1650 graphics processor.
+                      </p>
+
+                      <div class="price-container mb-1">
+                        <span class="txt-md mr-1 txt-bold">₹46,990</span>
+                        <span class="txt-strike-through txt-secondary mr-1"
+                          >₹56,999</span
+                        >
+                        <span class="discount-percent">17% off</span>
+                      </div>
+
+                      <div class="card-btn-container">
+                        <button class="btn btn-primary">
+                          <i
+                            class="fas fa-shopping-cart"
+                            aria-hidden="true"
+                          ></i>
+                          <span>Add to Cart</span>
+                        </button>
+
+                        <button class="btn btn-secondary-outline">
+                          <span>Save for later</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <button class="btn card-dismiss-btn">
+                      <i class="far fa-times-circle" title="dismis"></i>
+                    </button>
+                  </article>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/557f664a28e966fb77ca560b5767f88f.js"></script>
+                  </code>
+                </figure>
+
+                <p class="h4">JavaScript Code</p>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/66723b85f3c5e6141a66e0211e78ebf2.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./button.html">
@@ -139,8 +509,24 @@
             <aside class="page-navigation">
               <h5>On This Page</h5>
               <ul>
-                <li class="m-sm">
-                  <a href="#" class="py-1"></a>
+                <li>
+                  <a href="#horizontal-card">Horizontal Card</a>
+                </li>
+
+                <li>
+                  <a href="#vertical-card">Vertical Card</a>
+                </li>
+
+                <li>
+                  <a href="#card-with-text-overlay">Card with text overlay</a>
+                </li>
+
+                <li>
+                  <a href="#text-only-card">Text only card</a>
+                </li>
+
+                <li>
+                  <a href="#card-with-dismiss">Card with dismiss</a>
                 </li>
               </ul>
             </aside>
@@ -171,5 +557,6 @@
     <script src="./js/switch-theme.js"></script>
     <script src="./js/navbar.js" defer></script>
     <script src="./js/sidenav.js" defer></script>
+    <script src="../components/js/card-dismiss.js"></script>
   </body>
 </html>
