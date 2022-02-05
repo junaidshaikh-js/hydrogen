@@ -12,7 +12,7 @@ You can use the Hydrogen library by adding our stylesheet to your website. To ge
 <link rel="stylesheet" href="https://hydrogen-ui.netlify.app/style.css" />
 ```
 
-Visit [docs](https://hydrogen-ui.netlify.app/) to learn more.
+Visit [docs](https://hydrogen-ui.netlify.app/docs/get-started.html) to learn more.
 
 ---
 
