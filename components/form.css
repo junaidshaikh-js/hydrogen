@@ -73,7 +73,7 @@ textarea:focus {
 }
 
 .invalid-message {
-  color: var(--color-red);
+  color: var(--red-color);
 }
 
 .form .form-field:valid ~ .valid-message {
