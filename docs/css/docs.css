@@ -101,6 +101,11 @@
   margin: 1rem 1rem 1rem 0;
 }
 
+.demo-container .typography-container {
+  color: var(--black-color);
+  width: 100%;
+}
+
 /* github gist */
 
 .gist-data {
