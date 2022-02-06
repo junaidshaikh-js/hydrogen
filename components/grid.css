@@ -1,11 +1,11 @@
 .grid {
   display: grid;
+  min-height: 100px;
 }
 
 /* mobile first approach */
 
 .grid-20-80,
-.grid-auto-1fr-auto,
 .grid-50-50,
 .grid-three-column {
   grid-template-columns: 1fr;
@@ -39,10 +39,6 @@
 @media screen and (min-width: 769px) {
   .grid-20-80 {
     grid-template-columns: 20% 1fr;
-  }
-
-  .grid-auto-1fr-auto {
-    grid-template-columns: auto 1fr auto;
   }
 
   .grid-50-50 {
