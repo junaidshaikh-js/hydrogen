@@ -135,7 +135,127 @@
             <section>
               <div>
                 <h1>Grid</h1>
+
+                <p>
+                  CSS Grid is a two-dimensional grid system used to work on the
+                  layout of UI elements and segments of a webpage. The Grid
+                  comprises horizontal and vertical lines to form rows and
+                  columns, much like a table.
+                </p>
+                <p>
+                  Hydrogen provides four types of grid layouts. Hydrogen grid
+                  layouts are mobile first and responsive.
+                </p>
               </div>
+
+              <section>
+                <h2 id="grid-20-80">Grid 20-80 layout</h2>
+
+                <p>
+                  If you want to use any container as grid add
+                  <code>.grid</code> class to the container first. To divide the
+                  container into 20-80 percent column use
+                  <code>.grid-20-80</code> class on your grid container. You can
+                  use <code>.gap-1</code> class to add gap of <code>1rem</code>
+                </p>
+
+                <div class="demo-container">
+                  <div class="grid grid-20-80 gap-1">
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column1
+                    </div>
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column 2
+                    </div>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/9e27beec1fcf0271b64ecd1bca41a792.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="grid-50-50">Grid 50-50 layout</h2>
+
+                <p>
+                  The most used grid layout of two equal columns. You can use
+                  <code>.grid-50-50</code> class to create two column grid
+                  layout.
+                </p>
+
+                <div class="demo-container">
+                  <div class="grid grid-50-50 gap-1">
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column1
+                    </div>
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column 2
+                    </div>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/6fe8911480c6a7e55dd0336a1abe439c.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="grid-three-column">Grid three column layout</h2>
+
+                <p>
+                  Another useful grid layout is three equal column layout. Use
+                  <code>.grid-three-column</code> class to create three column
+                  layout. You can use <code>.gap-x-1</code> to add grid gap
+                  horizontally and <code>.gap-y-1</code> to add grip gap
+                  vertically.
+                </p>
+
+                <div class="demo-container">
+                  <div class="grid grid-three-column gap-y-1 gap-x-1">
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column1
+                    </div>
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column 2
+                    </div>
+                    <div
+                      class="txt-center"
+                      style="border: 1px solid var(--bg-primary)"
+                    >
+                      Column 3
+                    </div>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/1728189bdba7b2e8711eae7f868868bd.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./snackbar.html">
@@ -149,7 +269,13 @@
               <h5>On This Page</h5>
               <ul>
                 <li>
-                  <a href=""></a>
+                  <a href="#grid-20-80">Grid 20-80</a>
+                </li>
+                <li>
+                  <a href="#grid-50-50">Grid 50-50</a>
+                </li>
+                <li>
+                  <a href="#grid-three-column">Grid three column</a>
                 </li>
               </ul>
             </aside>
