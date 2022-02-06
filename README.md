@@ -59,8 +59,24 @@ Visit [docs](https://hydrogen-ui.netlify.app/docs/get-started.html) to learn mor
   - Round Image
 
 - [Forms](https://hydrogen-ui.netlify.app/docs/form.html)
+
   - Simple form fields
   - Form with validation
+
+- [Typography](https://hydrogen-ui.netlify.app/docs/typography.html)
+
+  - Headings
+  - Text utility classes
+
+- [Snackbar](https://hydrogen-ui.netlify.app/docs/snackbar.html)
+
+  - Simple snackbar
+  - Stacked snackbar
+
+- [Grid](https://hydrogen-ui.netlify.app/docs/grid.html)
+  - Grid 20-80 layout
+  - Grid 50-50 layout
+  - Grid three column layout
 
 ---
 
