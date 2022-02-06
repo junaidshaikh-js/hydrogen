@@ -1,0 +1,36 @@
+.snackbar {
+  background-color: var(--bg-primary);
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px var(--secondary-txt);
+  color: var(--white-txt) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.snackbar.stacked {
+  flex-wrap: wrap;
+}
+
+.snackbar.stacked .snackbar-message {
+  flex-basis: 100%;
+}
+
+.snackbar.stacked p {
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.snackbar.stacked .snackbar-actions {
+  margin-left: auto;
+  padding-top: 0.5rem;
+}
+
+.snackbar-actions {
+  color: var(--white-txt);
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 25%;
+  margin-right: 10px;
+}
