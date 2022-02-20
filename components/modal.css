@@ -1,0 +1,28 @@
+.dialog-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog {
+  background-color: var(--white-txt);
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 1.2rem;
+}
+
+.dialog div:not(:last-of-type) {
+  border-bottom: 1px solid;
+}
+
+.dialog-btn {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
