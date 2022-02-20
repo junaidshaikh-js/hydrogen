@@ -120,6 +120,33 @@
   margin-bottom: 0 !important;
 }
 
+/* example modal */
+#example-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  visibility: hidden;
+}
+
+#example-modal.show {
+  visibility: visible;
+  animation: show 0.1s linear;
+}
+
+/* keyframes */
+@keyframes show {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 @media screen and (min-width: 769px) {
   .docs-main {
     margin-left: 18rem;
