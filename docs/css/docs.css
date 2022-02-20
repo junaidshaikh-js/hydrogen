@@ -102,7 +102,7 @@
 }
 
 .demo-container :is(ol, ul) {
-  margin-right: 2rem;
+  margin-right: var(--size-13);
 }
 
 .demo-container :is(.typography-container, .grid) {
