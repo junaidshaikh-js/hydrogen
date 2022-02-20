@@ -143,7 +143,223 @@
             <section>
               <div>
                 <h1>List</h1>
+
+                <p>
+                  Lists are used to group together related pieces of information
+                  so they are clearly associated with each other and easy to
+                  read. In modern web development, lists are workhorse elements,
+                  frequently used for navigation as well as general content.
+                </p>
               </div>
+
+              <section>
+                <h2 id="unordered-list">Unordered Lists</h2>
+                <h3 id="list-with-bullets">List with bullets</h3>
+                <p>
+                  In the default unordered list the bullets are in circle shape.
+                </p>
+
+                <div class="demo-container">
+                  <ul class="unorderd-list">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                  </ul>
+
+                  <ul class="circle-list">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                  </ul>
+
+                  <ul class="square-list">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                  </ul>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/90372d37886dc3172702df4fdd10f857.js"></script>
+                  </code>
+                </figure>
+
+                <h3 id="list-with-no-bullets">List with no bullets</h3>
+
+                <p>
+                  Unordered list with no bullets can be used on navigation. Use
+                  <code>.no-bullets</code> class to remove bullets .
+                </p>
+
+                <div class="demo-container">
+                  <ul class="no-bullet">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                  </ul>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/f755bff8a4d5cb9e7ac0916037ebf39a.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="ordered-list">Ordered List</h2>
+
+                <h3 id="ordered-bullet-list">Ordered Bullet List</h3>
+
+                <p>
+                  Ordered list can be used for any steps that must go in
+                  particular order. There are many types of bullets that we can
+                  use in ordered list.
+                </p>
+
+                <div class="demo-container">
+                  <ol class="ordered-list">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+
+                  <ol class="upper-alpha-list">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+
+                  <ol class="lower-alpha-list">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+
+                  <ol class="upper-roman-list">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+
+                  <ol class="lower-roman-list">
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/ada14699837ab115cc1d27011dff7c6d.js"></script>
+                  </code>
+                </figure>
+
+                <h3 id="reversed-ordered-list">Reversed ordered list</h3>
+
+                <div class="demo-container">
+                  <ol class="ordered-list" reversed>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                  </ol>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/4c56f951c0cac7d1b154b2b63e4ba162.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="inline-list">Inline List</h2>
+
+                <div class="demo-container">
+                  <ul class="no-bullet inline-list">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                  </ul>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/4b9981cfaec521504e3410b1a3f50a18.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="notification-stacked-list">
+                  Notification Stacked List
+                </h2>
+
+                <p>
+                  For notification stacked list you can use unorder list with no
+                  bullets by adding <code>.no-bullet</code> class as shown above
+                  and add any content you want inside the <code>li</code> to
+                  show notifications. Here is example of snackbar notification
+                  list.
+                </p>
+
+                <div class="demo-container">
+                  <ul class="stacked-notification-list no-bullet">
+                    <li>
+                      <div class="snackbar p-sm">
+                        <div class="snackbar-message">
+                          <p>Can't send this photo. Retry in 5 seconds.</p>
+                        </div>
+
+                        <div class="snackbar-actions">
+                          <button class="btn">RETRY</button>
+
+                          <button class="btn">
+                            <i class="fas fa-times" title="close"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="snackbar p-sm">
+                        <div class="snackbar-message">
+                          <p>Can't send this photo. Retry in 5 seconds.</p>
+                        </div>
+
+                        <div class="snackbar-actions">
+                          <button class="btn">RETRY</button>
+
+                          <button class="btn">
+                            <i class="fas fa-times" title="close"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="snackbar p-sm">
+                        <div class="snackbar-message">
+                          <p>Can't send this photo. Retry in 5 seconds.</p>
+                        </div>
+
+                        <div class="snackbar-actions">
+                          <button class="btn">RETRY</button>
+
+                          <button class="btn">
+                            <i class="fas fa-times" title="close"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/a16a19b67008dd4e4d734d58718b36f5.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./navigation.html">
@@ -157,7 +373,37 @@
               <h5>On This Page</h5>
               <ul>
                 <li>
-                  <a href="#"></a>
+                  <a href="#unordered-list">Unordered List</a>
+                </li>
+
+                <li class="pl-sm">
+                  <a href="#list-with-bullets">List with Bullets</a>
+                </li>
+
+                <li class="pl-sm">
+                  <a href="#list-with-no-bullets">List with no bullets</a>
+                </li>
+
+                <li>
+                  <a href="#ordered-list">Ordered list</a>
+                </li>
+
+                <li class="pl-sm">
+                  <a href="#ordered-bullet-list">Ordered bullet list</a>
+                </li>
+
+                <li class="pl-sm">
+                  <a href="#reversed-ordered-list">Reversed ordered list</a>
+                </li>
+
+                <li>
+                  <a href="#inline-list">Inline List</a>
+                </li>
+
+                <li>
+                  <a href="#notification-stacked-list"
+                    >Notification stacked list</a
+                  >
                 </li>
               </ul>
             </aside>

@@ -101,6 +101,10 @@
   margin: 1rem 1rem 1rem 0;
 }
 
+.demo-container :is(ol, ul) {
+  margin-right: var(--size-13);
+}
+
 .demo-container :is(.typography-container, .grid) {
   color: var(--black-color);
   width: 100%;
