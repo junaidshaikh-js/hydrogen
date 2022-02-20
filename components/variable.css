@@ -24,4 +24,7 @@
   --online: #1ba81b;
   --offline: #ff0000;
   --number-bg: #0099ff;
+
+  --bg-rating: #3a3b3b31;
+  --rating-checked: #ffb400;
 }
