@@ -154,7 +154,95 @@
             <section>
               <div>
                 <h1>Slider</h1>
+
+                <p>
+                  Sliders are used to define a particular range whose exact
+                  value is not important. Sliders can be used to control the
+                  sound in video player or filer the price in e-com website.
+                </p>
               </div>
+
+              <section>
+                <h2 id="simple-slider">Simple Slider</h2>
+
+                <p>
+                  The slider range can be set using <code>min</code> and
+                  <code>max</code> attribute on <code>input</code> element .
+                </p>
+
+                <div class="demo-container">
+                  <div class="slider-container">
+                    <input type="range" min="0" max="1000" step="100" />
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/da82f71da1c4e354a483507f1008737d.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="slider-with-label">Slider with label</h2>
+
+                <p>
+                  Labels can be added to the slider using the
+                  <code>datalist</code> element.
+                </p>
+
+                <div class="demo-container">
+                  <div class="slider-container">
+                    <input
+                      type="range"
+                      min="0"
+                      max="1000"
+                      step="100"
+                      list="range-label"
+                    />
+
+                    <datalist id="range-label">
+                      <option value="0">0%</option>
+                      <option value="100"></option>
+                      <option value="200"></option>
+                      <option value="300"></option>
+                      <option value="400"></option>
+                      <option value="500">50%</option>
+                      <option value="600"></option>
+                      <option value="700"></option>
+                      <option value="800"></option>
+                      <option value="900"></option>
+                      <option value="1000">100%</option>
+                      <option></option>
+                    </datalist>
+                  </div>
+                </div>
+
+                <figure class="code-container">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/eea9861e48ed5d0fab830c9a6dcd1e5c.js"></script>
+                  </code>
+                </figure>
+              </section>
+
+              <section>
+                <h2 id="slider-with-icon">Slider with icon</h2>
+
+                <div class="demo-container">
+                  <div class="slider-container icon-slider">
+                    <span class="slider-icon mr-1">
+                      <i class="fas fa-volume-up"></i>
+                    </span>
+                    <input type="range" min="0" max="100" />
+                  </div>
+                </div>
+
+                <figure class="code-conainer">
+                  <code>
+                    <script src="https://gist.github.com/junaidshaikh-js/30239ae17b30d6d781271eef319ec0f6.js"></script>
+                  </code>
+                </figure>
+              </section>
 
               <div class="next-pre-btns">
                 <a href="./rating.html">
@@ -168,7 +256,13 @@
               <h5>On This Page</h5>
               <ul>
                 <li>
-                  <a href=""></a>
+                  <a href="#simple-slider">Simple Slider</a>
+                </li>
+                <li>
+                  <a href="#slider-with-label">Slider with label</a>
+                </li>
+                <li>
+                  <a href="#slider-with-icon">Slider with icon</a>
                 </li>
               </ul>
             </aside>
