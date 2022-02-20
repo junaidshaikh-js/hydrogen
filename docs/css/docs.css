@@ -134,7 +134,7 @@
 
 #example-modal.show {
   visibility: visible;
-  animation: show 0.1s linear;
+  animation: show 0.3s linear;
 }
 
 /* keyframes */
