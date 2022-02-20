@@ -74,9 +74,35 @@ Visit [docs](https://hydrogen-ui.netlify.app/docs/get-started.html) to learn mor
   - Stacked snackbar
 
 - [Grid](https://hydrogen-ui.netlify.app/docs/grid.html)
+
   - Grid 20-80 layout
   - Grid 50-50 layout
   - Grid three column layout
+
+- [Navigation](https://hydrogen-ui.netlify.app/docs/navigation.html)
+
+  - Simple Navigation
+
+- [List](https://hydrogen-ui.netlify.app/docs/list.html)
+
+  - Unordered list
+  - Ordered list
+  - Inline list
+  - Notification stacked list
+
+- [Modal](https://hydrogen-ui.netlify.app/docs/modal.html)
+
+  - Simple Modal
+
+- [Rating](https://hydrogen-ui.netlify.app/docs/rating.html)
+
+  - Read only Rating
+  - Live rating
+
+- [Slider](https://hydrogen-ui.netlify.app/docs/slider.html)
+  - Simple Slider
+  - Slider with label
+  - Slider with icon
 
 ---
 
