@@ -70,21 +70,6 @@
 }
 
 /* button sytles  */
-/* TODO remove when button component will be added */
-
-.btn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  white-space: nowrap;
-}
-
-.btn:focus {
-  outline: 2px dotted var(--primary-color);
-  outline-offset: 2px;
-}
-
 .btn-icon {
   position: relative;
 }
