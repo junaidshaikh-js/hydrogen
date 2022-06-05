@@ -92,6 +92,7 @@
 .demo-container {
   align-items: center;
   border: 1px solid var(--text-gray);
+  color: var(--black-color);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
